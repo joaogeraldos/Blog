@@ -45,6 +45,8 @@ html, body {
     display: inline;
 }
 
+/* ----------Conteudo----------*/
+
 .container {
     margin: auto;
     min-height: 83vh;
@@ -54,19 +56,38 @@ html, body {
 }
 
 
+/* ----------Final----------*/
+
+
 .final {
     background-color: darkgray;
     min-width: 60vw;
-    height: 70px;
-    position: relative;
+    height: 80px;
     margin-top: 10px;
+    padding: 5px 0;
 }
 
+.redes .links {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.redes .links li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
 .final #credts {
-    position: absolute;
     bottom: 0;
     background-color: black;
     width: 100%;
     color: white;
     text-align: center;
+    display: block;
+    padding: 2px 0;
+    margin-top: 3px;
 }
