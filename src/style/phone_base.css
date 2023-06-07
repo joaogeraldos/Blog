@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------ Pagina ------*/
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/*----- Cabeçalho ------*/
+
+.cabecalho {
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(102, 102, 102);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho .logo {
+    width: 120px;
+}
+
+.cabecalho .nav {
+    display: none;
+}
+
+
+
+/*----- Roda pé ------*/
+
+.final {
+    background-color: darkgray;
+    margin-top: 10px;
+}
+
+.final #credts {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+
+}
+
+
+
